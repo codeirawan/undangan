@@ -21,28 +21,7 @@ export const guest = (() => {
     /**
      * @returns {void}
      */
-    const countDownDate = () => {
-        const until = document.getElementById('count-down')?.getAttribute('data-time')?.replace(' ', 'T');
-        if (!until) {
-            alert('Invalid countdown date.');
-            return;
-        }
-
-        const count = (new Date(until)).getTime();
-
-        const updateCountdown = () => {
-            const distance = Math.abs(count - Date.now());
-
-            document.getElementById('day').innerText = Math.floor(distance / (1000 * 60 * 60 * 24)).toString();
-            document.getElementById('hour').innerText = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)).toString();
-            document.getElementById('minute').innerText = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)).toString();
-            document.getElementById('second').innerText = Math.floor((distance % (1000 * 60)) / 1000).toString();
-
-            util.timeOut(updateCountdown, 1000 - (Date.now() % 1000));
-        };
-
-        requestAnimationFrame(updateCountdown);
-    };
+    
 
     /**
      * @returns {void}
@@ -202,7 +181,6 @@ export const guest = (() => {
      */
     const booting = async () => {
         animateSvg();
-        countDownDate();
         showGuestName();
         normalizeArabicFont();
         buildGoogleCalendar();
@@ -236,7 +214,8 @@ export const guest = (() => {
         information = storage('information');
         const token = document.body.getAttribute('data-key');
 
-        document.addEventListener('progress.done', () => booting());
+        // document.addEventListener('progress.done', () => booting());
+        booting();
         document.addEventListener('hide.bs.modal', () => document.activeElement?.blur());
 
         if (!token || token.length <= 0) {

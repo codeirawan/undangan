@@ -1,0 +1,66 @@
+{
+    "siteTitle": "Website Undangan Pernikahan Irawan & Khamidah Secara Online",
+    "title": "Undangan Pernikahan",
+    "coupleNames": "Irawan & Khamidah",
+    "date": "Ahad, 1 Juni 2025",
+    "backgroundImage": "./assets/images/bg.webp",
+    "coupleImage": "./assets/images/bg.webp",
+    "groom": {
+        "name": "Irawan Saputra",
+        "image": "./assets/images/cowo.webp",
+        "childOrder": "Putra pertama",
+        "parents": "Bapak Suyatno dan Ibu Lastri"
+    },
+    "bride": {
+        "name": "Khamidah Nuraini",
+        "image": "./assets/images/cewe.webp",
+        "childOrder": "Putri kedua",
+        "parents": "Bapak Hadi dan Ibu Rohmah"
+    },
+    "weddingDate": "2025-06-01",
+    "event": {
+        "akad": {
+            "waktu": "09.00 WIB",
+            "ket": "Selesai"
+        },
+        "resepsi": {
+            "waktu": "11.00 WIB",
+            "ket": "Selesai"
+        },
+        "countdown": "2025-06-01 09:00:00"
+    },
+    "location": {
+        "alamat": "Jl. Melati No. 10, Desa Harmoni, Kec. Damai, Kab. Bahagia, Jawa Tengah 12345",
+        "maps": "https://goo.gl/maps/example"
+    },
+    "dresscode": {
+        "nama": "Nusantara",
+        "deskripsi": "Dengan nuansa pastel ceria."
+    },
+    "gallery": {
+        "galleryOne": [
+            "https://picsum.photos/1280/720?random=11",
+            "https://picsum.photos/1280/720?random=12",
+            "https://picsum.photos/1280/720?random=13"
+        ],
+        "galleryTwo": [
+            "https://picsum.photos/1280/720?random=14",
+            "https://picsum.photos/1280/720?random=15",
+            "https://picsum.photos/1280/720?random=16"
+        ]
+    },
+    "gifts": [
+        {
+            "bank": "Mandiri",
+            "logo": "https://upload.wikimedia.org/wikipedia/id/thumb/e/e4/Bank_Mandiri_logo.svg/1280px-Bank_Mandiri_logo.svg.png",
+            "rekening": "1234567890",
+            "nama": "Irawan Saputra"
+        },
+        {
+            "bank": "BRI",
+            "logo": "https://upload.wikimedia.org/wikipedia/id/thumb/8/88/Bank_Rakyat_Indonesia.svg/1024px-Bank_Rakyat_Indonesia.svg.png",
+            "rekening": "9876543210",
+            "nama": "Khamidah Nuraini"
+        }
+    ]
+}

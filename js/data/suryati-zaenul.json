@@ -1,0 +1,66 @@
+{
+    "siteTitle": "Website Undangan Pernikahan Suryati & Zaenul Secara Online",
+    "title": "Undangan Pernikahan",
+    "coupleNames": "Suryati & Zaenul",
+    "date": "Sabtu, 20 April 2025",
+    "backgroundImage": "./assets/images/bg.webp",
+    "coupleImage": "./assets/images/bg.webp",
+    "groom": {
+        "name": "Zaenul Abidin",
+        "image": "./assets/images/cowo.webp",
+        "childOrder": "Putra pertama",
+        "parents": "Bapak Ahmad dan Ibu Nurhayati"
+    },
+    "bride": {
+        "name": "Suryati Rahmawati",
+        "image": "./assets/images/cewe.webp",
+        "childOrder": "Putri kedua",
+        "parents": "Bapak Sukardi dan Ibu Rukmini"
+    },
+    "weddingDate": "2025-05-20",
+    "event": {
+        "akad": {
+            "waktu": "10.00 WIB",
+            "ket": "Selesai"
+        },
+        "resepsi": {
+            "waktu": "13.00 WIB",
+            "ket": "Selesai"
+        },
+        "countdown": "2025-05-20 10:00:00"
+    },
+    "location": {
+        "alamat": "RT 03 RW 03, Dusun Kalikamal, Desa Kedunguter, Kec. Brebes, Kab. Brebes, Jawa Tengah 52219",
+        "maps": "https://goo.gl/maps/ALZR6FJZU3kxVwN86"
+    },
+    "dresscode": {
+        "nama": "Batik",
+        "deskripsi": "Dominasi berwarna hitam."
+    },
+    "gallery": {
+        "galleryOne": [
+            "https://picsum.photos/1280/720?random=1",
+            "https://picsum.photos/1280/720?random=2",
+            "https://picsum.photos/1280/720?random=3"
+        ],
+        "galleryTwo": [
+            "https://picsum.photos/1280/720?random=4",
+            "https://picsum.photos/1280/720?random=5",
+            "https://picsum.photos/1280/720?random=6"
+        ]
+    },
+    "gifts": [
+        {
+            "bank": "BCA",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bank_Central_Asia.svg/1598px-Bank_Central_Asia.svg.png",
+            "rekening": "8399399377",
+            "nama": "Suryati"
+        },
+        {
+            "bank": "BNI",
+            "logo": "https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/1024px-BNI_logo.svg.png",
+            "rekening": "4000028827",
+            "nama": "Zaenul"
+        }
+    ]
+}
